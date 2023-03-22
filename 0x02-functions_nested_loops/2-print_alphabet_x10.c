@@ -20,4 +20,5 @@ int main (void)
 		putchar('\n');
 		j++;
 	}
+	return (0);
 }
