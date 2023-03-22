@@ -1,7 +1,7 @@
 /*the prototypes all of them here 
 from rhe task 0 to the last task*/
-
-void print_alphabet(void);
+ioid printlphabet_x10(void);
+_alphabet(void);
 void print_alphabet_x10(void);
 int _islower(int c);
 int _isalpha(int c);
