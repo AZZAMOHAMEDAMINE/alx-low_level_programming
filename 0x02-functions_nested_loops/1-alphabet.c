@@ -10,6 +10,6 @@ void print_alphabet(void)
 	char str[26] = "abcdefghijklmnopqrstuvwxyz";
 
 	while (i < 26)
-		_putchar(str[i++]);
-	_putchar('\n');
+		putchar(str[i++]);
+	putchar('\n');
 }
