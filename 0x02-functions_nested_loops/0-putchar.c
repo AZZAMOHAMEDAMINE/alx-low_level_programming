@@ -2,7 +2,8 @@
 
 //script which print _putchar
 
-int main () {
-	printf("_putchar");
+int _putchar (char c) {
+
+
 	return 0 ;
 }
