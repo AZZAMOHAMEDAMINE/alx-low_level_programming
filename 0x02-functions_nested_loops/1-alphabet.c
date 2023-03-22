@@ -1,17 +1,15 @@
-#include <main.h>
+#include "main.h"
+
 /**
- * main - print alphabets
- * Return: 0
- */
-
-int main(void)
+ *  * print_alphabet - alphabet function
+ *   *
+ *    **/
+void print_alphabet(void)
 {
-	char i;
-i
-	for (i = 'a'; i <= 'z'; i++)
-		putchar(i);
+	int i = 0;
+	char str[26] = "abcdefghijklmnopqrstuvwxyz";
 
-	putchar('\n');
-
-return (0);
+	while (i < 26)
+		_putchar(str[i++]);
+	_putchar('\n');
 }
